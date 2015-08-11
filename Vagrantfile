@@ -13,7 +13,7 @@ Vagrant.configure(2) do |config|
 
   config.vm.provider "virtualbox" do |v|
    v.gui = false
-   v.name = "CoprHD1"
+   v.name = "Geode1"
    v.memory = 3072
    v.cpus = 2 
   end
